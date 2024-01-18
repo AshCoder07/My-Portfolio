@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .banner{
-    background-image: url(/portfolio/images/slider.jpg);
+    background-image: url(./images/slider.jpg);
     padding: 250px 0;
     background-repeat: no-repeat;
     background-size: cover;
