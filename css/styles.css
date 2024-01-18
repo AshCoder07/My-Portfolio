@@ -10,3 +10,32 @@ body{
 .skill-space{
     padding: 70px 0;
 }
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.nav-item:nth-child(2){
+    transition-delay: 200ms;
+}
+.nav-item:nth-child(3){
+    transition-delay: 300ms;
+}
+.nav-item:nth-child(4){
+    transition-delay: 400ms;
+}
+.skillset:nth-child(2){
+    transition-delay: 200ms;
+}
+.skillset:nth-child(3){
+    transition-delay: 300ms;
+}
+.skillset:nth-child(4){
+    transition-delay: 400ms;
+}
