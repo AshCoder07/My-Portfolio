@@ -40,3 +40,14 @@ body{
     transition-delay: 400ms;
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+    .banner {
+      background-image: url('../images/slider2.jpg');
+    }
+  }
+
+  @media (max-width: 576px) {
+    .banner {
+      background-image: url('../images/slider3.jpg');
+    }
+  }
